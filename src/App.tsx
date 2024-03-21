@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
       setLoading(false);
-      window.location.href = "https://clubelysium.in/";
+      window.location.href = "https://tradecenter.rooba.finance/";
     }, 3000);
 
     return () => clearTimeout(redirectTimer);
